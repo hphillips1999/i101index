@@ -1,0 +1,68 @@
+
+body {
+	max-width: 960px;
+	margin: auto; 
+	background-color: lightblue;
+}
+
+td { 
+	width: 33%;
+	font: black 12px;
+	border-color: black;
+}
+	
+th { 
+	text-align: center;
+	font-size: 24px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: black;
+	padding: 5px 5px 5px 5px;
+	background-color: #ddd; 
+	border-bottom: 5px solid #818387;
+}
+table {
+	border-color: black;
+	margin-bottom: 15px;
+}
+hr {
+	border-color: black;
+	margin: 8px;
+}
+li {
+	list-style-type: none;
+	text-align: center;
+}
+.resourceTitle {
+	 text-align: center;
+	 font-size: 28px;
+	 margin-bottom: 15px;
+	 text-decoration: underline;
+}
+.pagetitle {
+	text-align: center; 
+	margin: 2px;
+}
+.puppypictures {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	width: 615px;
+}
+.puppysubtext {
+	text-align: center;
+	margin-bottom: 7px;
+	font-size: 20px;
+}
+a:link {
+	color:red;
+}
+a:visited {
+	color: purple;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: white;
+}

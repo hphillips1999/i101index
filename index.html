@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title> I101 Home Page </title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+		<link rel="stylesheet" href="home.css">
+	</head>
+	<body>
+		<h1 class="pagetitle"> <b> Harrison Phillips' I101 Home Page </b> </h1>
+		<hr/>	
+		<div class="puppypictures">
+			<div>
+				<img id="dogImage1" onclick="changeImage1()" src="images/dog1.jpg" />
+				<img id="dogImage2" onclick="changeImage2()" src="images/dog2.jpg" />
+			</div>
+		</div>
+		<p class="puppysubtext"><b>Click the dogs to change them!</b></p>
+		<hr />
+		<table>
+			<tr>
+				<th><b>Introduction</b></th>
+				<th><b>I101 Homepage Information</b></th>
+				<th><b>Bucket List</b></th>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><p>My name is Harrison Phillips, I am a sophmore at IU, and I just
+					switched to informatics this semester. I was in Kelley for my first
+					3 semesters but decided i wanted to focus on classes that were geared
+					towards subjects I enjoy more.</p>
+				</td>
+				<td style="text-align: center;"><p>The homepage is a resource that contains the links to the semester schedule, 
+					as well as an excused absence form. There are also links to office hours 
+					and other miscellaneous things.</p>
+				</td>
+				<td style="text-align: center;"><p> I want to go to a big championship game at the basketball stadium where IU wins because I love the energy
+					of the school when we have wins.</p>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th><b>HTML/CSS Projects</b></th>
+				<th><b>Python Projects</b></th>
+				<th><b>Javascript Projects</b></th>
+				<th><b>Database Projects</b></th>
+			</tr>
+			<tr>
+				<td><li> <a href="http://pages.iu.edu/~hamphill/i101/html1.html">HTML 1</a> </li>
+					<li> <a href="http://pages.iu.edu/~hamphill/i101/html2.html">HTML 2</a> </li>
+					<li> <a href="http://pages.iu.edu/~hamphill/i101/css1.html">CSS 1</a> </li>
+					<li> <a href="http://pages.iu.edu/~hamphill/i101/css2.html">CSS 2</a> </li>
+				</td>
+				<td><li> <a href="http://pages.iu.edu/~hamphill/i101/py1.html">Python 1</a> </li>
+					<li> <a href="http://pages.iu.edu/~hamphill/i101/py2.html">Python 2</a> </li>
+					<li> <a href="http://pages.iu.edu/~hamphill/i101/py3.html">Python 3</a> </li>
+					<li> <a href="http://pages.iu.edu/~hamphill/i101/py4.html">Python 4</a> </li>
+				</td>
+				<td><li> <a href="http://pages.iu.edu/~hamphill/i101/js1.html">JavaScript 1</a> </li>
+					<li> <a href="http://pages.iu.edu/~hamphill/i101/js2.html">JavaScript 2</a> </li>
+					<li> <a href="http://pages.iu.edu/~hamphill/i101/js3.html">JavaScript 3</a> </li>
+					<li> <a href="http://pages.iu.edu/~hamphill/i101/js4.html">JavaScript 4</a> </li>
+				</td>	
+				<td><li> <a href="http://pages.iu.edu/~hamphill/i101/db1.html">Database 1</a> </li>
+				<li> <a href="http://pages.iu.edu/~hamphill/i101/db2.html">Database 2</a> </li>
+				<li> <a href="http://pages.iu.edu/~hamphill/i101/db3.html">Database 3</a> </li>
+				</td>
+			</tr>
+		</table>
+		<p class="resourceTitle"> <b> I101 Resources </b> </p>
+		<ol>
+			<li> <a href="https://quizlet.com/50539027/i101-test-1-flash-cards/"> Quizlet Help </a> </li>
+			<li> <a href="https://www.coursehero.com/sitemap/schools/803-Indiana-University-Bloomington/courses/9579692-INFO-I101/"> Course Hero </a> </li>
+			<li> <a href="https://www.sice.indiana.edu/undergraduate/tutoring-center.html"> Tutoring </a> </li>
+		</ol>
+		<hr />
+		<h3 style="text-align: center; margin: 2px;"> <i> I101 Labs </i> </h3>
+		<script>
+		function changeImage1() {
+			var image = document.getElementById('dogImage1');
+			if (image.src.match("dog1")) {
+				image.src = "images/dog3.jpg";
+			} else {
+				image.src = "images/dog1.jpg";
+			}
+		}
+		function changeImage2() {
+			var image = document.getElementById('dogImage2');
+			if (image.src.match("dog2")) {
+				image.src = "images/dog4.jpg";
+			} else {
+				image.src = "images/dog2.jpg";
+			}
+		}
+		
+		</script>
+	</body>
+</html>

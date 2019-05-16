@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title> I101 Home Page </title>
+	</head>
+	<body>
+		<h1> <b> I101 Home Page </b> </h1>
+		<hr />
+			<img src="images/dog2.jpg" />
+		<br />
+			<img id="dogImage" onclick="changeImage()" src="images/dog3.png" />
+		<p>Click the light bulb to turn it on/off.</p>
+		<hr />
+		<h2> <b> Introduction </b> </h2>
+			<p> My name is Harrison Phillips, I am a sophmore at IU, and I just
+				switched to informatics this semester. I was in Kelley for my first
+				2 semesters but decided i wanted to focus on classes that were geared
+				towards subjects I enjoy more. </p>
+		<h2> <b> Homepage </b> </h2>
+			<p> The homepage is a resource that contains the links to the semester schedule, 
+				as well as an excused absence form. There are also links to office hours 
+				and other miscellaneous things. </p>
+		<h2> <b> Bucket List </b> </h2>
+			<p> I want to go to a big championship game at the basketball stadium where IU wins because I lvoe the energy
+				of the school when we have wins.</p>
+		
+		<hr />
+		<ul>
+			<li> <a href="http://pages.iu.edu/~hamphill/i101/html1.html"> HTML 1 </a> </li>
+			<li> <a href="http://pages.iu.edu/~hamphill/i101/html2.html"> HTML 2 </a> </li>
+			<li> <a href="http://pages.iu.edu/~hamphill/i101/py1.html"> Python 1 </a> </li>
+			<li> <a href="http://pages.iu.edu/~hamphill/i101/py2.html"> Python 2 </a> </li>
+			<li> <a href="http://pages.iu.edu/~hamphill/i101/py3.html"> Python 3 </a> </li>
+			<li> <a href="http://pages.iu.edu/~hamphill/i101/js1.html"> JavaScript 1 </a> </li>
+			<li> <a href="http://pages.iu.edu/~hamphill/i101/js2.html"> JavaScript 2 </a> </li>
+
+
+		</ul>
+		<h2> <b> I101 Resources </b> </h2>
+		<ol>
+			<li> <a href="https://quizlet.com/50539027/i101-test-1-flash-cards/"> Quizlet Help </a> </li>
+			<li> <a href="https://www.coursehero.com/sitemap/schools/803-Indiana-University-Bloomington/courses/9579692-INFO-I101/"> Course Hero </a> </li>
+			<li> <a href="https://www.sice.indiana.edu/undergraduate/tutoring-center.html"> Tutoring </a> </li>
+		</ol>
+		<hr />
+		<h3> <i> I101 Labs </i> </h3>
+		<script>
+	
+		function changeImage() {
+			var image = document.getElementById('dogImage');
+			if (image.src.match("dog4")) {
+				image.src = "images/dog3.jpg";
+			} else {
+				image.src = "images/dog4.jpg";
+			}
+		}
+		</script>
+	</body>
+</html>
